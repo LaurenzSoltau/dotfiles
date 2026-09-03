@@ -1,6 +1,9 @@
 # Machine-specific / secret nvim settings
 nvim/lua/custom/local.lua
 
+# Machine-specific / secret zsh overrides (sourced from home/.zshrc)
+home/.zshrc.local
+
 # gh runtime state (auth token lives in the macOS Keychain, not needed in git)
 gh/hosts.yml
 

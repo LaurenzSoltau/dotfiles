@@ -33,6 +33,10 @@ link "$REPO/ghostty"   "$CONFIG/ghostty"
 # gh: only the shared config.yml — hosts.yml/auth stays local to each machine.
 link "$REPO/gh/config.yml" "$CONFIG/gh/config.yml"
 
+# Home-directory dotfiles.
+link "$REPO/home/.zshrc"     "$HOME/.zshrc"
+link "$REPO/home/.tmux.conf" "$HOME/.tmux.conf"
+
 echo
 echo "Done. For nvim, create machine-specific settings:"
 echo "  cp \"$REPO/nvim/lua/custom/local.lua.example\" \"$REPO/nvim/lua/custom/local.lua\""
