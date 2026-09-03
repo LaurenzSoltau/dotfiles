@@ -1,0 +1,8 @@
+# Machine-specific / secret nvim settings
+nvim/lua/custom/local.lua
+
+# gh runtime state (auth token lives in the macOS Keychain, not needed in git)
+gh/hosts.yml
+
+# macOS noise
+.DS_Store

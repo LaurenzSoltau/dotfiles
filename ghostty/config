@@ -1,0 +1,29 @@
+# fonts
+font-size = 18
+font-family = JetBrains Mono
+
+font-thicken = true
+font-thicken-strength = 164 
+
+# theme
+theme = Gruvbox Dark
+
+#background
+background-opacity = 0.96
+background-blur = 20 
+
+#window
+window-padding-x = 4
+window-padding-y = 4
+window-padding-balance = true
+
+
+#cursor
+shell-integration-features = no-cursor
+cursor-style = bar
+cursor-style-blink = true
+
+
+
+
+

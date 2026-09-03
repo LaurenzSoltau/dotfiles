@@ -1,0 +1,17 @@
+-- Machine-specific settings. NOT tracked by git.
+--
+-- Setup on a new machine:
+--   cp lua/custom/local.lua.example lua/custom/local.lua
+-- then edit the values below to match this computer.
+
+-- Python interpreter used by plugins that need one (adjust to your venv/system).
+-- vim.g.python_cmd = '/Users/you/venv/bin/python3'
+
+-- Full path to pylatexenc's `latex2text` for Markdown LaTeX rendering.
+-- Leave unset to use `latex2text` from your PATH instead.
+-- Install with: pip install pylatexenc
+-- vim.g.latex2text_cmd = '/Users/you/venv/bin/latex2text'
+
+-- Lichess personal API token, if you use a plugin that needs one.
+-- Create at https://lichess.org/account/oauth/token
+-- vim.g.lichess_api_token = 'lip_xxxxxxxxxxxx'
